@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:3000/api/summary)",
+      "Bash(node -e \"const d=[];process.stdin.on\\(''''data'''',c=>d.push\\(c\\)\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(Buffer.concat\\(d\\)\\);console.log\\(''''Currencies loaded:'''',j.count\\)}\\)\")",
+      "Bash(bash -n \"/Users/ichirosadeepa-m4/Documents/Binance P2P API/deploy/update-dashboard.sh\")",
+      "Bash(pbcopy)",
+      "Bash(node -e \"const d=[];process.stdin.on\\(''''data'''',c=>d.push\\(c\\)\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(Buffer.concat\\(d\\)\\);console.log\\(''''Count:'''',j.count\\)}\\)\")",
+      "Bash(node -c public/js/app.js)",
+      "Bash(node -c \"/Users/ichirosadeepa-m4/Documents/Binance P2P API/public/js/app.js\")",
+      "WebFetch(domain:api.p2pauditor.com)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "binance-p2p-api",
+  "version": "1.0.0",
+  "description": "Real-time USDT P2P exchange rates from Binance for all supported fiat currencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["binance", "p2p", "usdt", "exchange-rate", "api"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1"
+  }
+}
