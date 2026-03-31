@@ -3,13 +3,15 @@ const API = "/api";
 
 // All supported currencies
 const ALL_CURRENCIES = [
-  "AED", "ARS", "AUD", "BDT", "BHD", "BOB", "BRL", "CAD", "CLP", "CNY",
-  "COP", "CRC", "CZK", "DOP", "DZD", "EGP", "EUR", "GBP", "GEL", "GHS",
-  "HKD", "HNL", "IDR", "INR", "IQD", "JOD", "JPY", "KES", "KHR", "KRW",
-  "KWD", "KZT", "LAK", "LBP", "LKR", "MAD", "MMK", "MXN", "MYR", "NGN",
-  "NIO", "NOK", "NPR", "OMR", "PAB", "PEN", "PHP", "PKR", "PLN", "PYG",
-  "QAR", "RON", "RUB", "SAR", "SDG", "SEK", "SGD", "THB", "TND", "TRY",
-  "TWD", "TZS", "UAH", "UGX", "USD", "UYU", "UZS", "VES", "VND", "ZAR"
+  "AED", "AMD", "AOA", "ARS", "AUD", "AZN", "BDT", "BGN", "BHD", "BOB",
+  "BRL", "BSD", "BYN", "CAD", "CDF", "CLP", "CNY", "COP", "CRC", "CZK",
+  "DOP", "DZD", "EGP", "EUR", "GBP", "GEL", "GHS", "GTQ", "HKD", "HNL",
+  "HUF", "IDR", "ILS", "INR", "IQD", "JOD", "JPY", "KES", "KGS", "KHR",
+  "KRW", "KWD", "KZT", "LAK", "LBP", "LKR", "MAD", "MDL", "MMK", "MNT",
+  "MXN", "MYR", "NGN", "NIO", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN",
+  "PHP", "PKR", "PLN", "PYG", "QAR", "RON", "RSD", "RUB", "RWF", "SAR",
+  "SDG", "SEK", "SGD", "THB", "TJS", "TND", "TRY", "TWD", "TZS", "UAH",
+  "UGX", "USD", "UYU", "UZS", "VES", "VND", "XAF", "XOF", "YER", "ZAR"
 ];
 
 // State
