@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P2P Auditor - Binance P2P Rates Dashboard</title>
+  <title>P2P Auditor - Binance & Bybit P2P Rates</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
       </div>
       <div>
         <h1>P2P Auditor</h1>
-        <p class="subtitle">Binance P2P USDT Rates</p>
+        <p class="subtitle">Binance & Bybit P2P USDT Rates</p>
       </div>
     </div>
     <div class="header-right">
@@ -54,6 +54,21 @@
       <div class="stat-label">API Uptime</div>
       <div class="stat-value" id="uptime">--</div>
       <div class="stat-sub">Server time</div>
+    </div>
+  </div>
+
+  <!-- Exchange Toggle -->
+  <div class="exchange-toggle-container">
+    <div class="exchange-toggle" id="exchangeToggle">
+      <button class="exchange-btn active" data-exchange="binance" onclick="switchExchange('binance')">
+        <span class="exchange-dot binance-dot"></span> Binance
+      </button>
+      <button class="exchange-btn" data-exchange="bybit" onclick="switchExchange('bybit')">
+        <span class="exchange-dot bybit-dot"></span> Bybit
+      </button>
+      <button class="exchange-btn" data-exchange="compare" onclick="switchExchange('compare')">
+        Compare
+      </button>
     </div>
   </div>
 
@@ -130,8 +145,8 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p>P2P Auditor &mdash; Real-time Binance P2P USDT rates for 70+ currencies</p>
-    <p class="footer-sub">Auto-refreshes every 60 seconds &bull; Data from Binance P2P</p>
+    <p>P2P Auditor &mdash; Real-time Binance & Bybit P2P USDT rates for 70+ currencies</p>
+    <p class="footer-sub">Auto-refreshes every 60 seconds &bull; Data from Binance & Bybit P2P</p>
   </footer>
 
   <script src="/js/app.js"></script>
