@@ -678,7 +678,6 @@ select {
 /* Mobile Cards */
 .mobile-cards {
   padding: 0 14px 20px;
-  display: flex;
   flex-direction: column;
   gap: 8px;
   max-width: 1400px;
@@ -867,7 +866,7 @@ select {
 
   /* Hide table, show cards on mobile */
   .desktop-only { display: none !important; }
-  .mobile-only { display: block !important; }
+  .mobile-only { display: flex !important; }
 
   /* Modal mobile */
   .modal-overlay { padding: 20px 10px; }
